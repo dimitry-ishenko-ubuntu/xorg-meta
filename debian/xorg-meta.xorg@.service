@@ -1,0 +1,11 @@
+[Unit]
+After=systemd-user-sessions.service
+
+[Service]
+User=%I
+WorkingDirectory=/home/%I
+ExecStart=/usr/bin/xinit
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
