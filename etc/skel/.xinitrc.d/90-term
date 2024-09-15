@@ -1,0 +1,4 @@
+#!/bin/sh
+xrdb -merge ~/.Xresources
+geom=$(xdpyinfo | perl -ne "printf('%dx%d+0+0',\$1/10,\$2/22) if /dimensions: *(\\d+)x(\\d+)/")
+xterm -g $geom

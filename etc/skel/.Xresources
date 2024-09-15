@@ -1,0 +1,7 @@
+XTerm*faceName: JetBrainsMono NF Light
+XTerm*faceSize: 12
+XTerm*background: #002b36
+XTerm*foreground: gray
+XTerm*loginShell: true
+XTerm*saveLines: 1000000
+XTerm*selectToClipboard: true
