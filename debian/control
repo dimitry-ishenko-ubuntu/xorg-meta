@@ -13,3 +13,4 @@ Architecture: any
 Multi-Arch: foreign
 Depends: fonts-jetbrains-mono-nerd, xorg, xserver-xorg-video-fbdev, xserver-xorg-video-intel, xserver-xorg-video-nouveau, xterm
 Description: xorg-meta
+ X11 meta-package
